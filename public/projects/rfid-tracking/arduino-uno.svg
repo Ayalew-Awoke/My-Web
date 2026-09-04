@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Arduino Uno board illustration</title>
+  <desc id="desc">A clean illustration of an Arduino Uno microcontroller board for the RFID tracking project.</desc>
+  <rect width="1200" height="760" fill="#eef6ff"/>
+  <rect x="60" y="60" width="1080" height="640" rx="34" fill="#f8fbff" stroke="#c7d7ea" stroke-width="4"/>
+  <g transform="translate(170 116)">
+    <path d="M112 70h638c44 0 80 36 80 80v340c0 44-36 80-80 80H112c-44 0-80-36-80-80V150c0-44 36-80 80-80Z" fill="#007a9a"/>
+    <path d="M112 70h638c44 0 80 36 80 80v340c0 44-36 80-80 80H112c-44 0-80-36-80-80V150c0-44 36-80 80-80Z" fill="none" stroke="#005f78" stroke-width="8"/>
+    <circle cx="112" cy="152" r="24" fill="#e7eef7" stroke="#9fb4c8" stroke-width="7"/>
+    <circle cx="742" cy="152" r="24" fill="#e7eef7" stroke="#9fb4c8" stroke-width="7"/>
+    <circle cx="112" cy="488" r="24" fill="#e7eef7" stroke="#9fb4c8" stroke-width="7"/>
+    <circle cx="742" cy="488" r="24" fill="#e7eef7" stroke="#9fb4c8" stroke-width="7"/>
+    <rect x="160" y="114" width="390" height="54" rx="8" fill="#101827"/>
+    <g fill="#d8e2ef">
+      <rect x="181" y="128" width="22" height="26" rx="3"/>
+      <rect x="221" y="128" width="22" height="26" rx="3"/>
+      <rect x="261" y="128" width="22" height="26" rx="3"/>
+      <rect x="301" y="128" width="22" height="26" rx="3"/>
+      <rect x="341" y="128" width="22" height="26" rx="3"/>
+      <rect x="381" y="128" width="22" height="26" rx="3"/>
+      <rect x="421" y="128" width="22" height="26" rx="3"/>
+      <rect x="461" y="128" width="22" height="26" rx="3"/>
+      <rect x="501" y="128" width="22" height="26" rx="3"/>
+    </g>
+    <rect x="176" y="465" width="300" height="54" rx="8" fill="#101827"/>
+    <g fill="#d8e2ef">
+      <rect x="197" y="479" width="22" height="26" rx="3"/>
+      <rect x="237" y="479" width="22" height="26" rx="3"/>
+      <rect x="277" y="479" width="22" height="26" rx="3"/>
+      <rect x="317" y="479" width="22" height="26" rx="3"/>
+      <rect x="357" y="479" width="22" height="26" rx="3"/>
+      <rect x="397" y="479" width="22" height="26" rx="3"/>
+    </g>
+    <rect x="273" y="246" width="170" height="118" rx="10" fill="#263241" stroke="#111827" stroke-width="6"/>
+    <text x="358" y="313" fill="#d9e4ef" font-family="Times New Roman, Times, serif" font-size="31" font-weight="700" text-anchor="middle">ATmega</text>
+    <rect x="86" y="258" width="118" height="86" rx="12" fill="#d5dce7" stroke="#8fa1b5" stroke-width="6"/>
+    <rect x="36" y="280" width="70" height="42" rx="8" fill="#cbd5e1" stroke="#8094aa" stroke-width="6"/>
+    <rect x="600" y="253" width="94" height="120" rx="12" fill="#111827"/>
+    <rect x="619" y="276" width="56" height="74" rx="7" fill="#364152"/>
+    <rect x="575" y="424" width="156" height="58" rx="12" fill="#1f2937"/>
+    <rect x="612" y="438" width="82" height="30" rx="5" fill="#d1d5db"/>
+    <g fill="#f5c542">
+      <circle cx="524" cy="251" r="14"/>
+      <circle cx="565" cy="251" r="14"/>
+      <circle cx="524" cy="294" r="14"/>
+      <circle cx="565" cy="294" r="14"/>
+      <circle cx="524" cy="337" r="14"/>
+      <circle cx="565" cy="337" r="14"/>
+    </g>
+    <g fill="none" stroke="#8bd7e8" stroke-width="6" stroke-linecap="round">
+      <path d="M204 314h52"/>
+      <path d="M443 307h64"/>
+      <path d="M586 307h48"/>
+      <path d="M651 373v43"/>
+      <path d="M358 365v80"/>
+      <path d="M212 463v-90"/>
+    </g>
+    <circle cx="514" cy="414" r="18" fill="#ef4444"/>
+    <circle cx="552" cy="414" r="18" fill="#22c55e"/>
+    <text x="430" y="225" fill="#ffffff" font-family="Times New Roman, Times, serif" font-size="58" font-weight="700">Arduino Uno</text>
+    <text x="430" y="405" fill="#bff3ff" font-family="Times New Roman, Times, serif" font-size="34" font-weight="700">RFID Tracking Controller</text>
+  </g>
+  <g transform="translate(790 180)">
+    <rect x="0" y="0" width="220" height="250" rx="18" fill="#0f172a"/>
+    <rect x="28" y="30" width="164" height="190" rx="10" fill="#12324a" stroke="#48cae4" stroke-width="5"/>
+    <path d="M62 64h96v122H62z" fill="none" stroke="#7dd3fc" stroke-width="8"/>
+    <path d="M88 90h44v70H88z" fill="none" stroke="#7dd3fc" stroke-width="7"/>
+    <text x="110" y="285" fill="#002f7a" font-family="Times New Roman, Times, serif" font-size="32" font-weight="700" text-anchor="middle">MFRC522</text>
+  </g>
+  <g fill="none" stroke="#002f7a" stroke-width="8" stroke-linecap="round">
+    <path d="M700 416 C770 416 800 360 842 330"/>
+    <path d="M700 360 C758 360 790 314 842 288"/>
+    <path d="M700 474 C782 474 806 404 842 374"/>
+  </g>
+</svg>

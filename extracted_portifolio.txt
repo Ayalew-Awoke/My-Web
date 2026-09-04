@@ -1,0 +1,354 @@
+The deep structure of the website 
+The website should be both laptop and mobile interactive.
+I have professional photo, CV and project in PDF format
+The background should be light attractive tech based background color and also format
+The constant part of the head should be movable when someone scroll it upward and also found in every page like about me, Projects, Skills, Certification, Contact.
+I have my own idea and paragraph for each button and format what should looks like.
+The Head 
+It should include my professional photo, and on its side short v description About me like, Ayalew Awoke Bitew, Electrical and computer engineering graduate(Computer Engineering steram)
+And below there is Download CV and View Projects Button 
+The download cv button includes The CV in pdf format and, when some one clicks it it shows download cv and also view option, on the view option if the user selects it it opens the pdf automatically and if the user clicks the download the system automatically download to the device.
+When the user clicks to the view project it shows the Project button below the Header and can see the project side all things.
+ABOUT ME PAGE
+About me page includes structured and attractive format containing the following ideas inside it.
+’’’’’’””””””
+ IntroductionI’m Ayalew Awoke, an Electrical and Computer Engineering graduate with a foundation that spans electronics, electrical engineering, computer systems, and software technology. My background has given me a perspective that connects the physical principles of engineering with the computational possibilities of modern technology. I’m driven by curiosity, discipline, and a desire to understand technology beyond its surface—to learn how systems work, why they work, and how they can be improved.
+My JourneyMy journey began with Electrical and Computer Engineering, where I built my fundamentals in electrical circuits, electronics, digital systems, computer architecture, and programming. As my understanding developed, my path gradually expanded toward software and computational technologies. I began exploring areas such as Python programming, web development, software development, Artificial Intelligence, Machine Learning, Deep Learning, and Natural Language Processing. My internship and personal projects gave me opportunities to move beyond theory and gain practical exposure to real technical challenges.
+This progression has shaped me into someone who is comfortable moving between engineering concepts and software-based approaches, while continuously developing the depth needed in each area.What I’m Interested In
+My interests lie in the evolving space where engineering and digital technology converge. I’m particularly interested in Artificial Intelligence and Machine Learning, Natural Language Processing, software development, and technologies that enable computers to understand, process, and respond to complex information.
+I’m also interested in how these computational technologies can interact with engineering systems and contribute to practical solutions. I enjoy exploring new frameworks, tools, and approaches, especially when they allow an idea to move from concept to a working system.
+What I Bring
+I bring an interdisciplinary foundation rather than a single-track technical perspective. My Electrical and Computer Engineering background gives me an understanding of electronics, electrical systems, and computer fundamentals, while my software and AI experience allows me to approach problems from a computational perspective.
+I work with technologies and concepts including Python, Java, C/C++, SQL, HTML, CSS, JavaScript, React.js, PyTorch, Hugging Face, and LangChain, alongside foundations in AI, machine learning, deep learning, and NLP.
+More importantly, I bring analytical thinking, adaptability, attention to detail, and the willingness to learn unfamiliar technologies. I believe technical ability becomes valuable when it can be translated into reliable, practical, and understandable solutions.
+Where I’m Going
+I’m building toward a career at the intersection of engineering, software, and intelligent technology. My goal is to continue strengthening both my technical depth and practical experience while working on increasingly meaningful and challenging projects. I want to become a versatile technology professional who can understand a problem from its fundamentals, choose the right technological approach, and contribute to taking an idea from an initial concept to a functioning solution. 
+The journey is still unfolding, and I intend to keep learning, building, experimenting, and pushing the boundaries of what I can create.””””
+NB: All the above ideas should include in attractive format and as it is, when you write the above ideas on the website do not divide the interface in to column and also do not use button but exactly attach the written idea in to the interface which should be legible readeable justifiable and well formatted on both laptop and smart phone.
+PROJECTS
+In the project button first there is deep and clear introduction about of the project with strong word that I mentioned below and also list of project 1-4.
+ The ideas to be entered is the following.
+“”””””””””
+ProjectsMy university journey provided me with the opportunity to transform academic knowledge into purposeful, real-world solutions. Through a range of technical projects, I explored the intersection of engineering and modern technology, working across software development, artificial intelligence, natural language processing, speech technologies, web systems, electronics, RFID, and system simulation. 
+Each project challenged me to move beyond theoretical understanding and engage with the complete process of development from identifying a problem and conceptualizing a solution to designing, implementing, testing, and refining a functional system. These experiences strengthened my technical foundation while cultivating the analytical thinking, creativity, precision, and persistence required to approach complex challenges.
+More importantly, they shaped my ability to connect different areas of technology and translate ideas into practical systems with tangible purpose.
+From Ideas to Impact
+A collection of university projects where I turned engineering knowledge, technical curiosity, and emerging technologies into practical systems—exploring ideas, building solutions, and learning through real implementation.
+“””””””””””
+After this when the user clicks on each view project there should be the detail one that the user can see like the following format and the ideas exactly those ideas will not written in button format but exactly on the interface the button should be the view project on the attractive way on the above ideas.
+For the first project when the user clicks the system shows the following ideas In a good way 
+THE title of the first is “””Design and implementation of RAG based Legal assistant chatbot using LLM for Ethiopia Amharic Language””
+“”””””””Design and Implementation of RAG Based Legal Document Assistant System Using LLM For Ethiopia Amharic Language
+The Challenge
+Millions of Amharic speakers lack access to legal information. Legal documents are complex, written in formal language, and no intelligent tools exist to help citizens understand their rights. Traditional search fails completely—it doesn't understand meaning, only keywords.
+The Solution
+I built an AI-powered legal assistant that understands questions in Amharic and retrieves accurate answers directly from Ethiopian law documents. The system combines three powerful search methods to find the most relevant legal information, then generates clear answers in Amharic.
+What I Built
+Backend Engine (Python + FastAPI)
+Processes Amharic queries and generates embeddings
+Coordinates hybrid search (dense + sparse + reranking)
+Prevents false answers through context-grounding
+Intelligent Retrieval System
+Dense semantic search (understands meaning)
+Sparse keyword search (matches exact terms)
+Neural reranking (picks the best results)
+Vector database with 2,345 legal document chunks
+Large Language Model Integration
+Generates accurate Amharic responses
+Refuses to answer when information is unavailable
+Grounded in verified legal documents only
+User Interface
+Clean, responsive chatbot
+Proper Amharic/Ethiopic script support
+Real-time responses
+User authentication & history
+How It Works
+User Question (Amharic)
+    ↓
+Query Processing (Unicode normalization)
+    ↓
+Hybrid Search
+├─ Find semantic meaning matches (30%)
+├─ Find exact term matches (30%)
+└─ Re-rank top results (40%)
+    ↓
+Retrieved Legal Context
+    ↓
+Generate Answer (LLaMA via GROQ)
+    ↓
+User Gets Amharic Answer
+Key Innovation: Hybrid Retrieval
+Most systems use only one search method. I combined three:
+Dense Search: Understands "What are bail requirements?" even if phrased differently
+Sparse Search: Finds exact matches like "bail," "article 49"
+Rank Fusion: Combines both to maximize accuracy
+Result: Better coverage for legal queries that need both semantic understanding AND precision.
+Technologies Used
+Component
+Technology
+Language
+Python
+Backend
+FastAPI
+Search
+ChromaDB + BM25
+AI Models
+Hugging Face, LLaMA
+Framework
+LangChain
+Results
+                                              Sign Up Page
+✅ Processed 39 Ethiopian legal documents (208 MB)✅ Created 2,345 semantically organized chunks✅ Achieved 71% semantic accuracy✅ Prevents hallucinations with fallback safeguards✅ Generates grammatically correct Amharic
+Why It Matters
+First RAG system for Amharic law — Demonstrates AI works for low-resource languages
+Real-world impact — Makes legal knowledge accessible to ordinary citizens
+Scalable approach — Can expand to other Ethiopian languages (Oromiffa, Tigrinya, etc.)
+Proves a concept — Shows that domain-specific AI can solve regional problems
+What I Learned
+🔹 Hybrid retrieval >> single search strategy🔹 Unicode handling for non-Latin scripts is complex🔹 In legal domain: accuracy > fluency🔹 Low-resource language AI needs domain-specific solutions🔹 Production systems need graceful failure modes
+Next Steps
+→ Expand to cover all Ethiopian law domains→ Add support for other local languages→ Deploy locally (reduce cloud dependency)→ Build larger annotated Amharic legal dataset→ Test with real legal professionals & students
+Github                                 
+“””””””””””
+The next project is one the following way and format as you did as the above 
+“”””””””””
+Finetuning Automatic Speech Recognition (ASR) System for Amharic Language(Information Network Security Administration (INSA)) Internship Project
+The Challenge
+Amharic is spoken by tens of millions of people, yet speech recognition technology for it remains far behind English and other high-resource languages. Existing ASR systems are built and optimized for languages with massive labeled datasets — Amharic has neither the data volume nor the research attention. Add in accent variation, background noise, and Amharic's rich morphology, and most modern ASR models simply fail to produce usable transcriptions.
+The Solution
+We fine-tuned two state-of-the-art ASR architectures — Wav2Vec2 and Whisper — on a custom-built Amharic speech dataset, adapting each model's internal representations to Amharic's acoustic and linguistic patterns. Rather than building a model from scratch, we leveraged transfer learning to make pre-trained multilingual/self-supervised models understand Amharic speech accurately.
+What We Built
+Data Pipeline
+Collected Amharic speech data from INSA's CAC dataset and YouTube (news, interviews, parliamentary recordings)
+Built a custom audio cutter to segment long recordings into ~30-second clips
+Standardized all audio to 16kHz WAV format with aligned transcriptions and metadata
+Audio Preprocessing
+Noise reduction and amplitude normalization
+Waveform-to-array conversion for model input
+Speaker-diverse dataset to improve generalization to unseen voices
+Model Fine-Tuning
+Wav2Vec2: fine-tuned using CTC loss for direct audio-to-text alignment
+Whisper: fine-tuned using sequence-to-sequence training for encoder-decoder transcription
+Both trained and evaluated on the same Amharic dataset for direct comparison
+Evaluation Framework
+Word Error Rate (WER) and Character Error Rate (CER) scoring
+Testing under both clean and noisy audio conditions
+How It Works
+Speech Data Collection (YouTube + CAC dataset)
+    ↓
+Audio Extraction (WAV format)
+    ↓
+Audio Segmentation (30-sec clips) + Preprocessing
+    ↓
+Feature Extraction (Wav2Vec2 / Whisper processors)
+    ↓
+Model Training & Fine-Tuning (CTC loss / Seq2Seq loss)
+    ↓
+Comparative Evaluation (WER & CER)
+    ↓
+Amharic Text Output
+Key Innovation: Dual-Model Comparative Fine-Tuning
+Instead of committing to a single architecture, we fine-tuned and evaluated two fundamentally different ASR paradigms side by side:
+Wav2Vec2 — self-supervised, CTC-based, lightweight to fine-tune, efficient on limited hardware
+Whisper — multilingual, encoder-decoder, pre-trained on diverse noisy real-world audio
+Result: Whisper consistently outperformed Wav2Vec2 on both WER and CER, and showed far greater robustness to noisy recordings — largely due to its large-scale multilingual pretraining. This comparison gives a clear, evidence-based answer to "which architecture should low-resource language projects start with."
+Technologies Used
+Component
+Technology
+Language
+Python
+Models
+Wav2Vec2, Whisper
+Frameworks
+HuggingFace Transformers, Torchaudio
+Audio Processing
+Librosa, Soundfile
+Evaluation
+Evaluate, JiWER (WER/CER)
+Data Handling
+NumPy, Pandas
+Visualization
+Matplotlib, Seaborn
+Dev Environment
+PyCharm, Kaggle Notebooks (GPU)
+Results
+✅ Fine-tuned both Wav2Vec2 and Whisper on a custom Amharic speech dataset✅ Whisper achieved lower error rates: WER ≈ 0.135, CER ≈ 0.039✅ Wav2Vec2 achieved: WER ≈ 0.153, CER ≈ 0.058✅ Whisper showed stronger robustness on noisy audio test cases✅ Demonstrated that both models generate meaningful, largely accurate Amharic transcriptions despite limited training (10 epochs)
+Why It Matters
+Direct comparison, not just implementation — gives future Amharic ASR work concrete evidence on which model architecture to prioritize
+Real-world data — built from actual Amharic broadcasts, interviews, and parliamentary speech, not synthetic data
+Foundation for accessibility tools — supports future voice assistants, transcription services, and accessibility technology for Amharic speakers
+Applicable beyond Amharic — the same fine-tuning and evaluation pipeline can be extended to other low-resource Ethiopian languages (Oromiffa, Tigrinya, etc.)
+What We Learned
+🔹 Whisper's multilingual pretraining gives it a real edge in low-resource, noisy conditions🔹 Wav2Vec2 is more compute-efficient to fine-tune but more sensitive to dataset quality/noise🔹 Both models were undertrained at only 10 epochs — results likely understate their true potential🔹 Audio segmentation and alignment quality directly determine transcription accuracy🔹 Compute availability (GPU access) is a real bottleneck for low-resource language ASR research
+Next Steps
+→ Train both models for significantly more epochs (500+) with dedicated GPU resources→ Expand and diversify the Amharic speech dataset→ Improve noise reduction and preprocessing pipelines→ Explore multilingual ASR models covering multiple Ethiopian languages→ Optimize models for real-time, low-resource deployment
+Hosting Organization: Information Network Security Administration (INSA)
+”””””””””
+The next project is one the following way and format as you did as the above 
+“””””””
+Tour ticket Reservation system for gondar
+Project Overview
+✦ The Challenge
+Gondar is one of Ethiopia's most historically significant cities, home to the UNESCO-listed Fasil Ghebbi (Royal Enclosure)
+Tourist ticketing was still entirely manual — paper-based sales, registration, and reporting
+Long queues during peak seasons like Timkat
+Frequent data-entry errors and lost/damaged records
+Poor coordination between attraction managers, vendors, and tourism offices
+No visibility into visitor trends or sales data for decision-making
+Tourists had no way to book ahead or pay online
+◆ The Concept
+Replace the manual workflow with a centralized, web-based reservation platform
+Let tourists browse attractions, book tickets, and pay online in one place
+Give administrators full control over inventory, users, and reporting from a single dashboard
+Scope the system around two roles: Tourist and System Admin
+Build role-based access control as the backbone of the design
+◈ What We Built
+As a team of four, we designed and developed a full-stack Tour Ticket Reservation System (TTRS) using PHP, MySQL, HTML, CSS, and JavaScript.
+Tourist side:
+Registration and login
+Browsing tour packages with details and pricing
+Booking tickets with date selection
+Secure online payment via Chapa
+Viewing booking/tour history
+Profile management
+Feedback submission
+Admin side:
+Managing attractions and packages
+Confirming and tracking bookings
+Managing users
+Generating reports and statistics
+Payments:
+Integrated Chapa gateway for real-time transaction confirmation
+Digital receipts
+Automated SMS/email confirmations
+⬡ How It Works
+Modular architecture built around seven core components: 
+Authentication Module
+Attraction Management Module
+Booking Engine
+Payment Processing Module
+Reporting Module
+Notification Service
+Search and Filter Module
+Booking flow: tourist selects a tour → submits booking request → Booking Controller checks availability → booking record + ID generated → hands off to Payment Module → payment succeeds → status updates to "Confirmed" → SMS/email confirmation sent
+Admin flow: request submitted → system authenticates admin → backend processes request → database updated/queried → response returned to admin
+Relational database (MySQL) normalized around four core tables: User, Ticket, Booking, and Payment, linked by foreign keys
+✧ Technology & Craft
+Frontend: HTML, CSS, JavaScript, Bootstrap (responsive design)
+Backend: PHP for server-side logic
+Database: MySQL, tested locally via XAMPP/Apache
+Payment: Chapa payment gateway
+Tooling: Visual Studio Code, Git/GitHub for version control and team collaboration
+Methodology: Agile development with iterative testing and constant communication with our advisor
+Design/Analysis: UML modeling — use case, object/block, sequence, and activity diagrams
+Security: Role-based access control, hashed passwords (bcrypt), input validation and sanitization against SQL injection and XSS
+➤ Outcome & Insight
+Successfully automated ticket browsing, booking, and payment processes
+Gave admins centralized control over inventory and reporting
+Functional testing showed reliable data handling and a smooth, mobile-responsive interface
+Overcame challenges with real-time inventory updates and payment gateway integration through iterative testing and team debugging
+Deepened our understanding of how costly manual, paper-based tourism operations are in time, accuracy, and visitor experience
+Confirmed that a modest tech stack (PHP/MySQL/Chapa) can meaningfully modernize ticketing for a heritage destination
+Future improvements identified: 
+QR-code ticket scanning at entrances
+Two-factor authentication
+Native Android/iOS mobile app
+Multi-language support (Amharic, English, French, etc.)
+Multi-currency payment support
+AI-driven demand prediction and dynamic pricing
+“””””””””””
+The final project 
+“”””””””””””
+Electronic Device Tracking System Using RFIDAcademic Project · Debre Tabor UniversityIndividual Project · RFID-Based Simulation✦ The ChallengeManaging and identifying electronic devices can become complex when information is handled manually. This project explored how RFID technology could be used to create a more organized approach to device identification and tracking, with the complete system represented and evaluated through simulation.◆ The ConceptThe concept was to design a device-tracking system based on RFID identification, where each electronic device could be represented by a unique RFID identity. The identified information would then be handled through a desktop application, creating a connection between RFID-based identification and digital device management.◈ What I BuiltI independently designed and developed the entire project as an academic project at Debre Tabor University. I worked on the system concept, design, tracking logic, desktop application, and simulation environment, bringing the different elements together into one coherent simulated solution.⬡ How It WorksThe simulated system represents the process of identifying an electronic device through its RFID identity and associating that identity with the corresponding device information. The desktop application provides the interface for managing the information, while the simulation demonstrates how the different parts of the proposed system would interact.✧ Technology & CraftThe project combines RFID concepts, electronics, desktop application development, and simulation. Rather than relying on physical hardware implementation, the RFID-based tracking process and system behavior were modeled and demonstrated through simulation, allowing the proposed design to be examined in a controlled environment.➤ Outcome & InsightThe completed simulation demonstrated a practical concept for integrating RFID-based identification with a desktop device-management application. The project provided an opportunity to explore RFID principles, tracking logic, system architecture, application development, and hardware–software interaction at the simulation level.Most importantly, it represents my ability to take an engineering idea, translate it into a structured system design, and develop a simulated representation of how that system could operate in practice.
+”””””””””””
+“”””””
+Skills button
+Programming & Software
+Turning logic into practical solutions. I use programming and structured problem-solving to build reliable, efficient, and maintainable software.
+Expertise
+Python 
+Java 
+C / C++ 
+SQL 
+Object-Oriented Programming 
+Software Development 
+Web Development
+Building responsive and functional digital experiences. I develop web solutions that connect users, applications, and data through clean and practical design.
+Expertise
+HTML 
+CSS 
+JavaScript 
+React.js 
+Responsive Web Development 
+Database Integration 
+Artificial Intelligence & Data
+Transforming data into intelligent solutions. I apply modern AI techniques to solve real-world problems involving language, information, and speech.
+Expertise
+Artificial Intelligence 
+Machine Learning 
+Deep Learning 
+Natural Language Processing 
+Transformer-Based Models 
+Retrieval-Augmented Generation 
+Semantic Search 
+Speech Processing 
+AI Frameworks & Tools
+Turning AI concepts into practical systems. I work with modern frameworks and techniques for developing, integrating, and evaluating intelligent applications.
+Expertise
+PyTorch 
+Hugging Face 
+LangChain 
+Vector Search 
+Embeddings 
+Model Evaluation 
+Electronics & Electrical Engineering
+Connecting engineering theory with practical systems. I apply electrical and electronic principles to analyze, simulate, troubleshoot, and understand technical systems.
+Expertise
+Electronic Circuits 
+Digital Electronics 
+Electrical Systems 
+Digital Logic 
+Computer Architecture 
+Circuit Analysis 
+Troubleshooting 
+Embedded & Identification Systems
+Bridging hardware and software to create connected solutions. I explore embedded technologies, identification systems, and hardware–software integration for practical applications.
+Expertise
+RFID Technology 
+Device Tracking Systems 
+System Simulation 
+Hardware–Software Integration 
+Tools & Professional
+Working with precision, organization, and a problem-solving mindset. I use professional tools to develop, document, manage, and communicate technical work effectively.
+Expertise
+Git 
+GitHub 
+Microsoft Word 
+Microsoft Excel 
+Microsoft PowerPoint 
+Technical Documentation 
+Problem Solving 
+Analytical Thinking
+“”””””””””””””
+Finally Cirtefications
+“”””””””””””””
+Certifications
+My certifications reflect my commitment to continuous learning, professional development, and expanding my technical knowledge beyond academic education. This collection includes training and certifications covering areas such as technology, engineering, artificial intelligence, software development, and professional skills, demonstrating my dedication to developing practical capabilities and staying adaptable in a constantly evolving technical field.
+”””””””””””””
+Finally contact
+“””””””””
+Contact
+I’m always open to connecting with people, organizations, and teams working on meaningful ideas and opportunities. Whether you have a job opportunity, project, collaboration, or simply want to discuss technology and engineering, feel free to get in touch.
+Emailyour.email@example.com
+Phone+251 XXX XXX XXX
+LocationAddis Ababa, Ethiopia
+Professional Links
+LinkedIn   connect the button to - www.linkedin.com/in/ayalew-awoke
+GitHub- this is button connected to my profile of github - https://github.com/Ayalew-Awoke
+Send Me a Message
+Name[ Enter your name ]
+Email[ Enter your email ]
+Subject[ Enter the subject ]
+Message[ Write your message here... ]
+[ Send Message ]
+”””””””””””

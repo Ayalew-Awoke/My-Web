@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "author": "Anonymous maker",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": -47.4, "left": -125.4, "attrs": {} },
+    { "type": "board-mfrc522", "id": "rfid1", "top": -165.85, "left": 205.04, "attrs": {} }
+  ],
+  "connections": [
+    [ "rfid1:3.3V", "uno:3.3V", "red", [ "h0" ] ],
+    [ "rfid1:RST", "uno:9", "green", [ "h0" ] ],
+    [ "rfid1:GND", "uno:GND.2", "black", [ "h0" ] ],
+    [ "uno:10", "rfid1:SDA", "green", [ "v0" ] ],
+    [ "uno:13", "rfid1:SCK", "gold", [ "v0" ] ],
+    [ "rfid1:MISO", "uno:12", "gold", [ "h0" ] ],
+    [ "rfid1:MOSI", "uno:11", "gold", [ "h0" ] ]
+  ],
+  "dependencies": {}
+}

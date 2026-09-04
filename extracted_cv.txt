@@ -1,0 +1,50 @@
+--- PAGE 1 ---
+ 
+ 
+ 
+AYALEW AWOKE BITEW 
+ 
+Electrical And Computer Engineering Graduate 
+ Personal Detail   
+ Current address: Addis Ababa, Ethiopia 
+ Mobile No: +251 920 931 029 
+ Email: ayalewawokebit@gmail.com 
+Professional Summary  
+Results-oriented Electrical and Computer Engineering graduate with a strong academic foundation in Electronics, 
+Embedded Systems, Computer Systems, Software Development, and Industrial Technology . Proficient in Python and 
+familiar with digital systems, aut omation, and technical problem -solving, with hands -on internship experience in 
+Automatic Speech Recognition, system evaluation, and technical documentation. Demonstrates strong analytical, 
+troubleshooting, adaptability, communication, and teamwork skills, with a clear interest in industrial automation, 
+machine systems, maintenance, and manufacturing operations. 
+                                                     Education 
+ B.Sc. in Electrical & Computer Engineering (Computer Engineering Stream)  Debre Tabor University,  
+ CGPA: 3.84/4.00,  Exit Exam: 77.5% 
+ Graduation: 2026 
+                                                     Skills 
+ Technical: Electronics, Electrical Systems, Embedded Systems, Automation, Troubleshooting 
+ Programming: Python, C/C++, Java, SQL 
+ Software: HTML, CSS, JavaScript, React.js 
+ AI/ML: Machine Learning, Deep Learning, NLP 
+ Tools: PyTorch, Hugging Face 
+ Soft Skills: Problem Solving, Teamwork, Adaptability, Communication 
+                                                   Professional Work Experience 
+1. Computer Engineering Intern - Information Network Security Administration (INSA) | Dec 2025 – Mar 2026 
+Major duties and responsibilities 
+ Developed an Automatic Speech Recognition (ASR) system using Whisper and XLS-R/Wav2Vec2. 
+ Performed speech preprocessing, model evaluation, and performance analysis to assess system performance. 
+ Supported AI research activities and prepared technical documentation. 
+                                                    Projects 
+1. RAG-Based Legal Document Assistant (Bachelor's Thesis) 
+ Developed an AI legal assistant using Retrieval-Augmented Generation (RAG) and large language models for 
+legal document retrieval and context-aware question answering. 
+2. Online Ticket Reservation System (Academic Project) 
+ Developed a web-based ticket reservation system with online booking, user management, and database 
+integration. 
+Languages 
+  Amharic — Mother Tongue     
+References 
+ Available up on request.                                              CV Update: August 2026  
+                                      I would like to confirm that the above mentioned information is true. 
+                                                                           Sincerely,  
+                                                                         Ayalew Awoke 
+ English — Professional Working Proficiency 
